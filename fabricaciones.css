@@ -1,257 +1,273 @@
+/* Font declarations for local IBM Plex fonts */
 @font-face {
   font-family: 'IBM Plex Mono';
   font-style: normal;
   font-weight: 300;
-  src: local("IBM Plex Mono Light"), local("IBMPlexMono-Light"), url("https://fabricaciones.org/fonts/Web/IBM-Plex-Mono/fonts/complete/woff2/IBMPlexMono-Light.woff2") format("woff2"), url("https://fabricaciones.org/fonts/Web/IBM-Plex-Mono/fonts/complete/woff/IBMPlexMono-Light.woff") format("woff"); }
+  src: local("IBM Plex Mono Light"), local("IBMPlexMono-Light"), url("fonts/IBM-Plex-Mono/fonts/complete/woff2/IBMPlexMono-Light.woff2") format("woff2"), url("fonts/IBM-Plex-Mono/fonts/complete/woff/IBMPlexMono-Light.woff") format("woff"); }
 
 @font-face {
     font-family: 'IBM Plex Mono';
     font-style: italic;
     font-weight: 300;
-    src: local("IBM Plex Mono Light Italic"), local("IBMPlexMono-LightItalic"), url("https://fabricaciones.org/fonts/Web/IBM-Plex-Mono/fonts/complete/woff2/IBMPlexMono-LightItalic.woff2") format("woff2"), url("https://fabricaciones.org/fonts/Web/IBM-Plex-Mono/fonts/complete/woff/IBMPlexMono-LightItalic.woff") format("woff"); }
+    src: local("IBM Plex Mono Light Italic"), local("IBMPlexMono-LightItalic"), url("fonts/IBM-Plex-Mono/fonts/complete/woff2/IBMPlexMono-LightItalic.woff2") format("woff2"), url("fonts/IBM-Plex-Mono/fonts/complete/woff/IBMPlexMono-LightItalic.woff") format("woff"); }
 	
 @font-face {
 	  font-family: 'IBM Plex Mono';
-	  font-style: bold;
+	  font-style: normal;
 	  font-weight: 400;
-	  src: local("IBM Plex Mono"), local("IBMPlexMono"), url("https://fabricaciones.org/fonts/Web/IBM-Plex-Mono/fonts/complete/woff2/IBMPlexMono-Regular.woff2") format("woff2"), url("https://fabricaciones.org/fonts/Web/IBM-Plex-Mono/fonts/complete/woff/IBMPlexMono-Regular.woff") format("woff"); }
+	  src: local("IBM Plex Mono"), local("IBMPlexMono"), url("fonts/IBM-Plex-Mono/fonts/complete/woff2/IBMPlexMono-Regular.woff2") format("woff2"), url("fonts/IBM-Plex-Mono/fonts/complete/woff/IBMPlexMono-Regular.woff") format("woff"); }
 	  
-
 @font-face {
 	    font-family: 'IBM Plex Sans';
 	    font-style: normal;
 	    font-weight: 400;
-	    src: local("IBM Plex Sans"), local("IBMPlexSans"), url("https://fabricaciones.org/fonts/Web/IBM-Plex-Sans/fonts/complete/woff2/IBMPlexSans-Regular.woff2") format("woff2"), url("https://fabricaciones.org/fonts/Web/IBM-Plex-Sans/fonts/complete/woff/IBMPlexSans-Regular.woff") format("woff"); }
+	    src: local("IBM Plex Sans"), local("IBMPlexSans"), url("fonts/IBM-Plex-Sans/fonts/complete/woff2/IBMPlexSans-Regular.woff2") format("woff2"), url("fonts/IBM-Plex-Sans/fonts/complete/woff/IBMPlexSans-Regular.woff") format("woff"); }
 	  
 @font-face {
 	    font-family: 'IBM Plex Sans';
 	    font-style: italic;
 	    font-weight: 400;
-	    src: local("IBM Plex Sans Italic"), local("IBMPlexSans-Italic"), url("https://fabricaciones.org/fonts/Web/IBM-Plex-Sans/fonts/complete/woff2/IBMPlexSans-Italic.woff2") format("woff2"), url("https://fabricaciones.org/fonts/Web/IBM-Plex-Sans/fonts/complete/woff/IBMPlexSans-Italic.woff") format("woff"); }
-		
+	    src: local("IBM Plex Sans Italic"), local("IBMPlexSans-Italic"), url("fonts/IBM-Plex-Sans/fonts/complete/woff2/IBMPlexSans-Italic.woff2") format("woff2"), url("fonts/IBM-Plex-Sans/fonts/complete/woff/IBMPlexSans-Italic.woff") format("woff"); }
 		
 @font-face {
 		  font-family: 'IBM Plex Sans';
-		  font-style: bold;
+		  font-style: normal;
 		  font-weight: 500;
-		  src: local("IBM Plex Sans Medium"), local("IBMPlexSans-Medium"), url("https://fabricaciones.org/fonts/Web/IBM-Plex-Sans/fonts/complete/woff2/IBMPlexSans-Medium.woff2") format("woff2"), url("https://fabricaciones.org/fonts/Web/IBM-Plex-Sans/fonts/complete/woff/IBMPlexSans-Medium.woff") format("woff"); }
+		  src: local("IBM Plex Sans Medium"), local("IBMPlexSans-Medium"), url("fonts/IBM-Plex-Sans/fonts/complete/woff2/IBMPlexSans-Medium.woff2") format("woff2"), url("fonts/IBM-Plex-Sans/fonts/complete/woff/IBMPlexSans-Medium.woff") format("woff"); }
 		  
-
 @font-face {
 		    font-family: 'IBM Plex Serif';
 		    font-style: normal;
 		    font-weight: 300;
-		    src: local("IBM Plex Serif Light"), local("IBMPlexSerif-Light"), url("https://fabricaciones.org/fonts/Web/IBM-Plex-Serif/fonts/complete/woff2/IBMPlexSerif-Light.woff2") format("woff2"), url("https://fabricaciones.org/fonts/Web/IBM-Plex-Serif/fonts/complete/woff/IBMPlexSerif-Light.woff") format("woff"); }
+		    src: local("IBM Plex Serif Light"), local("IBMPlexSerif-Light"), url("fonts/IBM-Plex-Serif/fonts/complete/woff2/IBMPlexSerif-Light.woff2") format("woff2"), url("fonts/IBM-Plex-Serif/fonts/complete/woff/IBMPlexSerif-Light.woff") format("woff"); }
 
 @font-face {
 			  font-family: 'IBM Plex Serif';
 			  font-style: italic;
 			  font-weight: 300;
-			  src: local("IBM Plex Serif Light Italic"), local("IBMPlexSerif-LightItalic"), url("https://fabricaciones.org/fonts/Web/IBM-Plex-Serif/fonts/complete/woff2/IBMPlexSerif-LightItalic.woff2") format("woff2"), url("https://fabricaciones.org/fonts/Web/IBM-Plex-Serif/fonts/complete/woff/IBMPlexSerif-LightItalic.woff") format("woff"); }
+			  src: local("IBM Plex Serif Light Italic"), local("IBMPlexSerif-LightItalic"), url("fonts/IBM-Plex-Serif/fonts/complete/woff2/IBMPlexSerif-LightItalic.woff2") format("woff2"), url("fonts/IBM-Plex-Serif/fonts/complete/woff/IBMPlexSerif-LightItalic.woff") format("woff"); }
 			
 @font-face {
 			    font-family: 'IBM Plex Serif';
-			    font-style: bold;
+			    font-style: normal;
 			    font-weight: 400;
-			    src: local("IBM Plex Serif"), local("IBMPlexSerif"), url("https://fabricaciones.org/fonts/Web/IBM-Plex-Serif/fonts/complete/woff2/IBMPlexSerif-Regular.woff2") format("woff2"), url("https://fabricaciones.org/fonts/Web/IBM-Plex-Serif/fonts/complete/woff/IBMPlexSerif-Regular.woff") format("woff"); }
-				
+			    src: local("IBM Plex Serif"), local("IBMPlexSerif"), url("fonts/IBM-Plex-Serif/fonts/complete/woff2/IBMPlexSerif-Regular.woff2") format("woff2"), url("fonts/IBM-Plex-Serif/fonts/complete/woff/IBMPlexSerif-Regular.woff") format("woff"); }
+
+/* Fallback font import in case local fonts don't load */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;1,300&family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Serif:ital,wght@0,300;0,400;1,300&display=swap');
+
 /* Base styles with mobile-first approach */
 body {
-	font-family: IBM Plex Serif;
-	font-size: 15px;
-	line-height: 1.4;
-	margin: 0; 
-	padding: 0;
-	max-width: 100%;
-	overflow-x: hidden;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 15px;
+    line-height: 1.4;
+    margin: 0; 
+    padding: 60px 0;
+    max-width: 100%;
+    overflow-x: hidden;
+    color: DimGrey;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    border-bottom: 1px dotted #afafaf;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    border-top: 1px dotted #afafaf;
+    padding: 10px 0;
+    z-index: 1000;
 }
 
 h1 {
-	font-size: 1em;
-	font-weight: bold;
-	line-height: 1.4;
-	margin-bottom: 1.8em;
-	margin-top: 15px;
-	margin-left: 15px;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1.4;
+    margin: 0 0 0.6em 15px;
 }
 
 h2 {
-	font-weight: bold;
-	margin: 0;
-	font-size: 1em;
-	line-height: 1.4;
-	margin-bottom: 1.4em;
-	margin-left: 15px;
+    font-weight: bold;
+    margin: 0 0 1.4em 15px;
+    font-size: 1em;
+    line-height: 1.4;
 }
 
 h3 {
-	font-weight: italic;
-	margin: 0;
-	font-size: 1em;
-	line-height: 1.4;
-	margin-bottom: 1.4em;
-	margin-left: 15px;
+    font-weight: normal;
+    font-style: italic;
+    margin: 0 0 1.4em 15px;
+    font-size: 1em;
+    line-height: 1.4;
 }
 
 h4 {
-	font-weight: italic;
-	margin: 0;
-	font-size: 1em;
-	line-height: 1.4;
-	margin-bottom: 1.4em;
-	margin-left: 15px;
+    font-weight: normal;
+    font-style: italic;
+    margin: 0 0 1.4em 15px;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+.content {
+    margin-top: 20px;
 }
 
 p, ul, blockquote, pre, td, th, label {
-	margin: 0;
-	font-size: 1em;
-	line-height: 1.4;
-	margin-bottom: 1.4em;
-	margin-left: 15px;
-	max-width: 100%;
-	padding-right: 15px;
-	color: DimGrey;
-	box-sizing: border-box;
+    margin: 0 0 1.4em 15px;
+    font-size: 1em;
+    line-height: 1.4;
+    max-width: 100%;
+    padding-right: 15px;
+    box-sizing: border-box;
 }
 
 p.small {
-	margin: 0;
-	font-size: 0.85em;
-	line-height: 1.6;
-	margin-bottom: 1.6em;
-	margin-left: 15px;
+    margin: 0 0 1.6em 15px;
+    font-size: 0.85em;
+    line-height: 1.6;
 }
 
 table {
-	border-collapse: collapse;
-	margin-bottom: 1.4em;
-	margin-left: 15px;
-	max-width: 100%;
-	overflow-x: auto;
+    border-collapse: collapse;
+    margin: 0 0 1.4em 15px;
+    max-width: 100%;
+    overflow-x: auto;
 }
 
 a {
-	text-decoration: none;
-	color: SteelBlue;
+    text-decoration: none;
+    color: SteelBlue;
 }
 
 .ingles {
-	color: SlateGrey;
-	font-style: italic;
+    color: SlateGrey;
+    font-style: italic;
 }
 
 .brokenlink {
-	color: LightGray;
+    color: LightGray;
 }
 
 .rojo {
-	color: DarkRed;
+    color: DarkRed;
 }
 
 .sans {
-	font-family: IBM Plex Sans;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .mono {
-	font-family: IBM Plex Mono;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 .nosubraya {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 img {
-	margin-left: 15px;
-	margin-bottom: 1.4em;
-	max-width: calc(100% - 30px);
-	height: auto;
+    margin-left: 15px;
+    margin-bottom: 1.4em;
+    max-width: calc(100% - 30px);
+    height: auto;
 }
 
 svg {
-	margin-left: 15px;
-	margin-bottom: 1.4em;
-	max-width: calc(100% - 30px);
+    margin-left: 15px;
+    margin-bottom: 1.4em;
+    max-width: calc(100% - 30px);
 }
 
 p.linea {
-	border-top-style: dotted;
-	border-top-width: 1px;
-	color: rgb(175,175,175);
+    border-top-style: dotted;
+    border-top-width: 1px;
+    color: rgb(175,175,175);
+    display: none; /* Hide when using fixed footer with border */
 }
 
 /* Tablet breakpoint */
 @media screen and (min-width: 600px) {
-	h1 {
-		margin-top: 18px;
-		margin-left: 20px;
-	}
-	
-	h2, h3, h4 {
-		margin-left: 25px;
-	}
-	
-	p, ul, blockquote, pre, td, th, label {
-		margin-left: 25px;
-		max-width: 85%;
-		padding-right: 20px;
-	}
-	
-	p.small {
-		margin-left: 25px;
-	}
-	
-	img, svg {
-		margin-left: 25px;
-		max-width: calc(100% - 50px);
-	}
-	
-	table {
-		margin-left: 25px;
-	}
+    h1 {
+        margin-left: 20px;
+    }
+    
+    h2, h3, h4 {
+        margin-left: 25px;
+    }
+    
+    p, ul, blockquote, pre, td, th, label {
+        margin-left: 25px;
+        max-width: 85%;
+        padding-right: 20px;
+    }
+    
+    p.small {
+        margin-left: 25px;
+    }
+    
+    img, svg {
+        margin-left: 25px;
+        max-width: calc(100% - 50px);
+    }
+    
+    table {
+        margin-left: 25px;
+    }
 }
 
 /* Desktop breakpoint */
 @media screen and (min-width: 900px) {
-	body {
-		font-size: 15px;
-		line-height: 1.3846153846153846em;
-	}
-	
-	h1 {
-		margin-top: 20px;
-		margin-left: 30px;
-		margin-bottom: 2.7692307692em;
-		line-height: 1.3846153846153846em;
-	}
-	
-	h2, h3, h4 {
-		margin-left: 30px;
-		margin-bottom: 1.3846153846153846em;
-		line-height: 1.3846153846153846em;
-	}
-	
-	p, ul, blockquote, pre, td, th, label {
-		margin-left: 30px;
-		margin-bottom: 1.3846153846153846em;
-		max-width: 930px;
-		padding-right: 0;
-		line-height: 1.3846153846153846em;
-	}
-	
-	p.small {
-		margin-left: 30px;
-		font-size: 0.8461538461538461em;
-		line-height: 1.6363636363636365em;
-		margin-bottom: 1.6363636363636365em;
-	}
-	
-	img, svg {
-		margin-left: 30px;
-		margin-bottom: 1.3846153846153846em;
-		max-width: 930px;
-	}
-	
-	table {
-		margin-left: 30px;
-	}
+    body {
+        font-size: 15px;
+        line-height: 1.3846153846153846em;
+        padding-top: 70px; /* Adjusted for desktop */
+    }
+    
+    h1 {
+        margin-left: 30px;
+        margin-bottom: 0.5em;
+        line-height: 1.3846153846153846em;
+    }
+    
+    h2, h3, h4 {
+        margin-left: 30px;
+        margin-bottom: 1.3846153846153846em;
+        line-height: 1.3846153846153846em;
+    }
+    
+    p, ul, blockquote, pre, td, th, label {
+        margin-left: 30px;
+        margin-bottom: 1.3846153846153846em;
+        max-width: 930px;
+        padding-right: 0;
+        line-height: 1.3846153846153846em;
+    }
+    
+    p.small {
+        margin-left: 30px;
+        font-size: 0.8461538461538461em;
+        line-height: 1.6363636363636365em;
+        margin-bottom: 1.6363636363636365em;
+    }
+    
+    img, svg {
+        margin-left: 30px;
+        margin-bottom: 1.3846153846153846em;
+        max-width: 930px;
+    }
+    
+    table {
+        margin-left: 30px;
+    }
 }

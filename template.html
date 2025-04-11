@@ -7,25 +7,22 @@
     <link rel="stylesheet" href="fabricaciones.css">
 </head>
 <body>
-    <!-- Title from markdown if provided -->
-    $if(title)$
-    <h1>$title$</h1>
-    $endif$
-
-    <!-- Main image - controlled by variables -->
-    $if(weeklyimage)$
-    <img src="$weeklyimage$" alt="$weeklyalt$">
-    $endif$
-
-    <!-- Main content from markdown -->
-    $body$
-
-    <!-- Footer - controlled by variables -->
+    <div class="header">
+        $if(title)$<h1>$title$</h1>$endif$
+    </div>
+    
+    <div class="content">
+        $if(weeklyimage)$
+        <img src="$weeklyimage$" alt="$weeklyalt$">
+        $endif$
+        
+        $body$
+    </div>
+    
     $if(footer)$
-    <p class="linea"></p>
-    <p class="small">
-        $footer$
-    </p>
+    <div class="footer">
+        <p class="small">$footer$</p>
+    </div>
     $endif$
 </body>
 </html>
