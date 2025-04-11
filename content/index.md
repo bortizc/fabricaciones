@@ -22,3 +22,6 @@ footer: |
 ## social
 
 [@fabricaciones.org](https://bsky.app/profile/fabricaciones.org){.mono}
+
+## ultima revisión
+Abril 11, 2025
